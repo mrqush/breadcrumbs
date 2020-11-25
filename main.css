@@ -1,0 +1,35 @@
+.path {
+  color: #999;
+  font-size: 13px;
+  font-family: Roboto;
+  padding: 10px 20px; }
+  .path__item {
+    height: 16px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    vertical-align: middle; }
+    .path__item::after {
+      content: "\203A";
+      display: inline-block;
+      padding: 0 8px; }
+    .path__item:last-child::after {
+      content: ''; }
+  .path__link {
+    color: green;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: top;
+    text-decoration: none; }
+    .path__link-img {
+      border: 0;
+      width: 12px;
+      height: 12px;
+      margin: auto 0;
+      padding: 0; }
+    .path__link:hover {
+      text-decoration: underline; }
