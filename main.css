@@ -18,18 +18,12 @@
       padding: 0 8px; }
     .breadcrumbs__item:last-child::after {
       content: ''; }
-  .breadcrumbs__link {
+  .breadcrumbs__home {
     color: green;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     vertical-align: top;
     text-decoration: none; }
-    .breadcrumbs__link-img {
-      border: 0;
-      width: 12px;
-      height: 12px;
-      margin: auto 0;
-      padding: 0; }
-    .breadcrumbs__link:hover {
+    .breadcrumbs__home:hover {
       text-decoration: underline; }

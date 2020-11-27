@@ -17,18 +17,11 @@
             content: '';
         }
     }
-    &__link {
+    &__home {
         color: green;
         display: inline-flex;
         vertical-align: top;
         text-decoration: none;
-        &-img {
-            border: 0;
-            width: 12px;
-            height: 12px;
-            margin: auto 0;
-            padding: 0;
-        }
         &:hover{
             text-decoration: underline;
         }
