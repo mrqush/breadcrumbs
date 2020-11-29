@@ -18,12 +18,19 @@
       padding: 0 8px; }
     .breadcrumbs__item:last-child::after {
       content: ''; }
-  .breadcrumbs__home {
+  .breadcrumbs__link {
     color: green;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     vertical-align: top;
     text-decoration: none; }
-    .breadcrumbs__home:hover {
+    .breadcrumbs__link:hover {
       text-decoration: underline; }
+  .breadcrumbs__home {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: url(https://www.consumercomplaints.in/img/home.svg);
+    width: 12px;
+    height: 12px; }
